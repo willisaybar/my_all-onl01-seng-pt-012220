@@ -2,7 +2,7 @@ require 'pry'
 
 def my_all?(collection)
   i = 0 
-  bloack_return_values = []
+  block_return_values = []
   while i < collection.length 
     bloack_return_values << yield(collection[i])
     i = i + 1 
